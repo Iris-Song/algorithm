@@ -1,0 +1,2 @@
+# algorithm
+write for learning
