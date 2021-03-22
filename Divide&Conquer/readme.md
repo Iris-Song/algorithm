@@ -17,9 +17,9 @@ divide-and-conquer(P)
  　　<img src=https://user-images.githubusercontent.com/58033867/111931976-5efb1300-8af7-11eb-87a5-30663406c3f3.png width="30%">
 
 ## problem
-1.[BinarySearch](https://github.com/Iris-Song/algorithm/Divide&Conquer/BinarySearch.cpp)
+1.[BinarySearch](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/BinarySearch.cpp)
 
-2.[LargeIntegerMul](https://github.com/Iris-Song/algorithm/Divide&Conquer/LargeIntegerMul.cpp)
+2.[LargeIntegerMul](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/LargeIntegerMul.cpp)
 
 >Karatsuba algorithm
  
