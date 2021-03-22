@@ -21,7 +21,7 @@ divide-and-conquer(P)
 
 2.LargeIntergerMul
 
-　Karatsuba algorithm
+>Karatsuba algorithm
  
 　　<img src=https://user-images.githubusercontent.com/58033867/111934290-16922400-8afc-11eb-9584-9ae8aaff2429.png width="30%">
 
