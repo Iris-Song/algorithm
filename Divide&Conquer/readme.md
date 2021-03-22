@@ -19,7 +19,7 @@ divide-and-conquer(P)
 ## problem
 1.[BinarySearch](https://github.com/Iris-Song/algorithm/Divide&Conquer/BinarySearch.cpp)
 
-2.LargeIntergerMul
+2.[LargeIntergerMul](https://github.com/Iris-Song/algorithm/Divide&Conquer/LargeIntergerMul.cpp)
 
 >Karatsuba algorithm
  
