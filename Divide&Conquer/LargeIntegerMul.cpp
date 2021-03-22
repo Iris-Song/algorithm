@@ -25,9 +25,9 @@ long long LargeIntegerMul(long long num1, long long num2)
     long long c = num2 / ( halfN * 10);
     long long d = num2 % ( halfN * 10);
 
-    long z2 = LargeIntegerMul(a, c);
-    long z0 = LargeIntegerMul(b, d);
-    long z1 = LargeIntegerMul((a + b), (c + d)) - z0 - z2;
+    long long z2 = LargeIntegerMul(a, c);
+    long long z0 = LargeIntegerMul(b, d);
+    long long z1 = LargeIntegerMul((a + b), (c + d)) - z0 - z2;
 
     return (long)(z2 * pow(10, (2 * halfN)) + z1 * pow(10, halfN) + z0);
 
