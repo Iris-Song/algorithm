@@ -1,6 +1,5 @@
   # RECURSION   
-  1.[Ackerman function](https://www.runoob.com)  
-  2.permutations  
-  　https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-leetcode-solution-2/  
-  3.DivideNum     
+  1.[Ackerman function](https://github.com/Iris-Song/algorithm/blob/main/recursion/Ackerman.cpp)  
+  2.[permutations](https://leetcode-cn.com/problems/permutations/solution/quan-pai-lie-by-leetcode-solution-2/)  
+  3.[DivideNum](https://github.com/Iris-Song/algorithm/blob/main/recursion/DivideNum.cpp)       
   　整数划分问题，将正整数表示为一系列正整数之和
