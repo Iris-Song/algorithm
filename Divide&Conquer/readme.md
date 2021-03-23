@@ -34,3 +34,8 @@ divide-and-conquer(P)
 　　<img src=https://user-images.githubusercontent.com/58033867/111934657-d1babd00-8afc-11eb-8499-941339f88d5e.png width="30%">
 
 　　<img src=https://user-images.githubusercontent.com/58033867/111934687-df704280-8afc-11eb-90d0-7715ec196374.png width="20%">
+
+3.[MaxSubMax　最大字段和](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/MaxSubSum.cpp)
+
+4.
+
