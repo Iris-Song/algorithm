@@ -37,5 +37,47 @@ divide-and-conquer(P)
 
 3.[MaxSubMax　最大字段和](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/MaxSubSum.cpp)
 
-4.
+4.[Strassen　matrix]()
+
+　　　设A、B、C为三个矩阵，每个矩阵都是n×n矩阵
+   
+   <img src=https://user-images.githubusercontent.com/58033867/112094495-562d3e80-8bd6-11eb-8198-a10a113e24aa.png width="50%">
+   
+   
+　　花费时间<img src=https://user-images.githubusercontent.com/58033867/112095281-2d597900-8bd7-11eb-9a53-7e4f27f0ca69.png width="5%">
+
+   如下创建10个的矩阵
+   
+   <img src=https://user-images.githubusercontent.com/58033867/112095332-42360c80-8bd7-11eb-9294-72eed39d1e25.png width="20%">
+
+   
+　　花费时间 <img src=https://user-images.githubusercontent.com/58033867/112095347-511cbf00-8bd7-11eb-93fd-a2e2cb3844a9.png width="5%">。
+
+
+递归地计算7个矩阵积<img src=https://user-images.githubusercontent.com/58033867/112095505-950fc400-8bd7-11eb-90be-179d4bc914a3.png width="30%">
+ ，每个矩阵 <img src=https://user-images.githubusercontent.com/58033867/112095520-9e992c00-8bd7-11eb-95e8-5bb8001b57c9.png width="30%">
+都是<img src=https://user-images.githubusercontent.com/58033867/112095450-7d384000-8bd7-11eb-8503-11c650a0b164.png  width="30%">
+ 的。
+
+<img src=https://user-images.githubusercontent.com/58033867/112095583-b7a1dd00-8bd7-11eb-9851-52e9d733b7a9.png width="30%">
+
+
+注意，上述公式中只有中间一列需要计算。
+
+4. 通过<img src=https://user-images.githubusercontent.com/58033867/112095678-e324c780-8bd7-11eb-9a34-8d956c35fdf0.png width="30%">
+ 计算 <img src=https://user-images.githubusercontent.com/58033867/112095692-e91aa880-8bd7-11eb-9e8f-8b235d8f5b81.png width="30%">
+ ，花费时间 <img src=https://user-images.githubusercontent.com/58033867/112095727-f6d02e00-8bd7-11eb-88cb-0ce5583d98ca.png width="30%"> 。
+
+<img src=https://user-images.githubusercontent.com/58033867/112095647-d43e1500-8bd7-11eb-936d-e8408e505ba4.png width="30%">
+
+
+综合可得如下递归式：
+
+<img src=https://user-images.githubusercontent.com/58033867/112095804-19624700-8bd8-11eb-8374-7e9680767b85.png width="30%">
+
+
+进而求出时间复杂度为：<img src=https://user-images.githubusercontent.com/58033867/112095662-dbfdb980-8bd7-11eb-8461-bd629a0bdc29.png width="30%">
+
+
+
 
