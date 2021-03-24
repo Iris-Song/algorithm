@@ -84,7 +84,7 @@ divide-and-conquer(P)
 
 7.[QuickSort](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/QuickSort.cpp)
 
-8.线性时间选择
+8.[线性时间选择](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/LinearSelect.cpp)
 
 　　给定线性集中序n个元素和一个整数k，要求找出这n个元素中第k小的数
 >algorithm
