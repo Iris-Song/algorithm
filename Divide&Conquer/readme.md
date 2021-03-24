@@ -75,6 +75,7 @@ divide-and-conquer(P)
 
 　　进而求出时间复杂度为：<img src=https://user-images.githubusercontent.com/58033867/112095662-dbfdb980-8bd7-11eb-8461-bd629a0bdc29.png width="20%">
 
+5.[棋盘覆盖](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ChessBoard.cpp)
 
 
 
