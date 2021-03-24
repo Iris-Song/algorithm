@@ -39,6 +39,8 @@ divide-and-conquer(P)
 
 4.[Strassen　matrix]()
 
+>algorithm
+
 　　　设A、B、C为三个矩阵，每个矩阵都是n×n矩阵
    
    <img src=https://user-images.githubusercontent.com/58033867/112094495-562d3e80-8bd6-11eb-8198-a10a113e24aa.png width="50%">
@@ -71,8 +73,10 @@ divide-and-conquer(P)
 
 　　综合可得如下递归式：
    <img src=https://user-images.githubusercontent.com/58033867/112095804-19624700-8bd8-11eb-8374-7e9680767b85.png width="30%">
-　　进而求出时间复杂度为:
-  <img src=https://user-images.githubusercontent.com/58033867/112095662-dbfdb980-8bd7-11eb-8461-bd629a0bdc29.png width="20%"> 
+   
+>time complexity
+
+　　<img src=https://user-images.githubusercontent.com/58033867/112095662-dbfdb980-8bd7-11eb-8461-bd629a0bdc29.png width="15%"> 
 
 5.[棋盘覆盖](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ChessBoard.cpp)
 
@@ -83,8 +87,23 @@ divide-and-conquer(P)
 8.线性时间选择
 
 　　给定线性集中序n个元素和一个整数k，要求找出这n个元素中第k小的数
+>algorithm
+ 
+　　(1)将n个元素划分为n/5(向上取整)个组，并将每组元素排好序，取出每组的中位数
+  
+　　(2)调用Select来找出这⌊n/5⌋个中位数的中位数x。如果⌊n/5⌋是偶数，就找它的2个中位数中较大的一个。最少有一半中位数 ≤ x, 也就是 ⌊⌊n/5⌋ /2⌋= ⌊n/10⌋ ;同样地，也有 3 ⌊n/10⌋ 个数 ≥ x
+
+　　<img src=https://user-images.githubusercontent.com/58033867/112255522-56444180-8c9d-11eb-8bd8-b8cb1a98ac8d.png width="40%"> 
+
+>time complexity
+
+　　<img src=https://user-images.githubusercontent.com/58033867/112255578-73791000-8c9d-11eb-95c1-28a4864deccf.png width="25%"> 
+
+
   
 　　[变式](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+  
+
 
 
 
