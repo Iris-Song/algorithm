@@ -20,12 +20,16 @@ void copy(int n) {
 void copyodd(int n) {
     int m = n / 2;
     for (int i = 1; i <= m; i++) {
+        //按照递增构造赛程
         b[i] = m + i; b[m + i] = b[i];
     }
     for (int i = 1; i <= m; i++) {
         for (int j = 1; j <= m+1; j++) {
+            //当a[i][j]>m的时候，认为这名选手的对手是虚拟选手
             if (a[i][j] > m) {
+                //由于a[i][j]轮空，我们直接让a[i][j]选手与m+i比赛保证与之前的构造一致
                 a[i][j] = b[i];
+                //同时修改a[m+i]号选手的对手为(b[i]+m)%n，以防止重复
                 a[m + i][j] = (b[i] + m) % n;
             }
             else a[m + i][j] = a[i][j] + m;
