@@ -105,6 +105,12 @@ divide-and-conquer(P)
   
   9.[循环赛日程表](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/Tournament.cpp)
   
+  10.最接近点对
+  
+  　　[一维](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ClosetPair1D.cpp)
+
+  　　[二维](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ClosetPair2D.cpp)
+  
 
 
 
