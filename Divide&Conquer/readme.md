@@ -76,5 +76,7 @@ divide-and-conquer(P)
 
 5.[棋盘覆盖](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ChessBoard.cpp)
 
+6.[MergeSort](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/MergeSort.cpp)
+
 
 
