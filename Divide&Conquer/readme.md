@@ -107,9 +107,9 @@ divide-and-conquer(P)
   
   10.最接近点对
   
-  　　[一维](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ClosetPair1D.cpp)
+  　　[一维](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ClosestPoint1D.cpp)
 
-  　　[二维](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ClosetPair2D.cpp)
+  　　[二维](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ClosestPoint2D.cpp)
   
 
 
