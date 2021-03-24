@@ -70,10 +70,13 @@ divide-and-conquer(P)
    <img src=https://user-images.githubusercontent.com/58033867/112095647-d43e1500-8bd7-11eb-936d-e8408e505ba4.png width="30%">
 
 　　综合可得如下递归式：
-
    <img src=https://user-images.githubusercontent.com/58033867/112095804-19624700-8bd8-11eb-8374-7e9680767b85.png width="30%">
+　　进而求出时间复杂度为:
+  <img src=https://user-images.githubusercontent.com/58033867/112095662-dbfdb980-8bd7-11eb-8461-bd629a0bdc29.png width="20%">    
 
-　　进而求出时间复杂度为：<img src=https://user-images.githubusercontent.com/58033867/112095662-dbfdb980-8bd7-11eb-8461-bd629a0bdc29.png width="20%">
+
+
+
 
 5.[棋盘覆盖](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/ChessBoard.cpp)
 
