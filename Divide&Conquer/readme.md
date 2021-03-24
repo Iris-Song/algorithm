@@ -78,5 +78,7 @@ divide-and-conquer(P)
 
 6.[MergeSort](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/MergeSort.cpp)
 
+7.[QuickSort](https://github.com/Iris-Song/algorithm/blob/main/Divide%26Conquer/QuickSort.cpp)
+
 
 
