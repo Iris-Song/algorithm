@@ -5,7 +5,7 @@ void MinWeightTriangulation(int n, Type** t)
 {
 	for (int i = 1; i <= n; i++)
 		t[i][i] = 0;
-	for (int gap = 1; gap < n; gap++) {
+	for (int gap = 2; gap < n; gap++) {
 		for (int i = 1; i <= n-gap; i++) {
 			int j = i + gap;
 			t[i][j] = t[i + 1][j] + w(i - 1, i, j);
