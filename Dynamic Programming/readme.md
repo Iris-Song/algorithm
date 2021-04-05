@@ -14,4 +14,6 @@
 
 5.[LCS](https://leetcode-cn.com/problems/longest-common-subsequence/submissions/)
 
-6.[MinSubSum 最大字段和](https://leetcode-cn.com/problems/maximum-subarray/submissions/)
+6.[MinSubSum 最大子段和](https://leetcode-cn.com/problems/maximum-subarray/submissions/)
+
+7.[凸多边形最优三角剖分](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/MinWeightTriangulation.cpp
