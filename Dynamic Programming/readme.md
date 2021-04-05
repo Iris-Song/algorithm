@@ -18,3 +18,5 @@
 
 7.[凸多边形最优三角剖分](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/MinWeightTriangulation.cpp)
   >[leetcode](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/submissions/)
+
+8.[PolyGame 多边形游戏](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/PolyGame.cpp)
