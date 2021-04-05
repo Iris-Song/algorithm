@@ -13,3 +13,5 @@
 对于给定的字符串A和B，试设计一个算法，计算其扩展距离。对于给定的字符串A和B，编程计算其扩展距离。
 
 5.[LCS](https://leetcode-cn.com/problems/longest-common-subsequence/submissions/)
+
+6.[MinSubSum 最大字段和](https://leetcode-cn.com/problems/maximum-subarray/submissions/)
