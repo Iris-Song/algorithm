@@ -24,4 +24,4 @@
 ### 背包问题 bag problem
 9. basic 0-1 bag problem
 
-10.two deminsion 0-1 bag problem
+10.[two deminsion 0-1 bag problem](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/bag2D.cpp)
