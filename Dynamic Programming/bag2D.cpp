@@ -1,4 +1,3 @@
-/* 1954263 ¼Æ¿Æ ËÎ×ÓÃú */
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -9,7 +8,7 @@ int main()
 	int n;
 	int c, d;
 	while (1) {
-		cout << "ÇëÊäÈë±³°üµÄÈİÁ¿" << endl;
+		cout << "è¯·è¾“å…¥èƒŒåŒ…çš„å®¹é‡" << endl;
 		cin >> c;
 		if (!cin.fail()) {
 			break;
@@ -20,7 +19,7 @@ int main()
 		}
 	}
 	while (1) {
-		cout << "ÇëÊäÈë±³°üµÄÈİ»ı" << endl;
+		cout << "è¯·è¾“å…¥èƒŒåŒ…çš„å®¹ç§¯" << endl;
 		cin >> d;
 		if (!cin.fail()) {
 			break;
@@ -31,7 +30,7 @@ int main()
 		}
 	}
 	while (1) {
-		cout << "ÇëÊäÈë´ı×°ÈëµÄÎïÆ·×ÜÊı" << endl;
+		cout << "è¯·è¾“å…¥å¾…è£…å…¥çš„ç‰©å“æ€»æ•°" << endl;
 		cin >> n;
 		if (n < 100 && !cin.fail()) {
 			break;
@@ -45,15 +44,15 @@ int main()
 	vector<int> b(n + 1, 0);
 	vector<int> v(n + 1, 0);
 	
-	cout << "ÇëÒÀ´ÎÊäÈë" << n << "¸öÎïÆ·µÄÖØÁ¿" << endl;
+	cout << "è¯·ä¾æ¬¡è¾“å…¥" << n << "ä¸ªç‰©å“çš„é‡é‡" << endl;
 	for (int i = 1; i <= n; i++) {
 		cin >> w[i];
 	}
-	cout << "ÇëÒÀ´ÎÊäÈë" << n << "¸öÎïÆ·µÄÌå»ı" << endl;
+	cout << "è¯·ä¾æ¬¡è¾“å…¥" << n << "ä¸ªç‰©å“çš„ä½“ç§¯" << endl;
 	for (int i = 1; i <= n; i++) {
 		cin >> b[i];
 	}
-	cout << "ÇëÒÀ´ÎÊäÈë" << n << "¸öÎïÆ·µÄ¼ÛÖµ" << endl;
+	cout << "è¯·ä¾æ¬¡è¾“å…¥" << n << "ä¸ªç‰©å“çš„ä»·å€¼" << endl;
 	for (int i = 1; i <= n; i++) {
 		cin >> v[i];
 	}
@@ -82,7 +81,7 @@ int main()
 			}
 		}
 	}
-	cout << "ÄÜ×°½øµÄ×î´ó¼ÛÖµÊıÊÇ";
+	cout << "èƒ½è£…è¿›çš„æœ€å¤§ä»·å€¼æ•°æ˜¯";
 	cout << m[1][c][d];
 	return 0;
 }
