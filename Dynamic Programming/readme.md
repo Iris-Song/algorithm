@@ -28,4 +28,4 @@
 　11.2 [two deminsion 0-1 bag problem](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/bag2D.cpp)
 
 
-12.image compression
+12.[image compression](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/imageCompression.cpp)
