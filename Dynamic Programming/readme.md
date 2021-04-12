@@ -21,10 +21,11 @@
 
 8.[PolyGame 多边形游戏](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/PolyGame.cpp)
 
-### 11.背包问题 bag problem
+#### 11.背包问题 bag problem
 
 　11.1 basic 0-1 bag problem
 
 　11.2[two deminsion 0-1 bag problem](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/bag2D.cpp)
-　
+
+
 12.image compression
