@@ -4,4 +4,4 @@
 
 2.[bag problem](https://github.com/Iris-Song/algorithm/blob/main/Greedy/bag.cpp)
 
-3.[Optimal loading]
+3.[optimal loading](https://github.com/Iris-Song/algorithm/blob/main/Greedy/optimal%20loading.cpp)
