@@ -11,8 +11,8 @@
 5.[Dijkstra](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Dijkstra.cpp)
 
 6.MST
-  
-　[Prime]
-  
-  [Kruscal](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Kruscal.cpp)
+
+　[Prim](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Prim.cpp)
+
+　[Kruscal](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Kruscal.cpp)
 
