@@ -9,3 +9,10 @@
 4.Huffman Tree
 
 5.[Dijkstra](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Dijkstra.cpp)
+
+6.MST
+  
+　[Prime]
+  
+  [Kruscal](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Kruscal.cpp)
+
