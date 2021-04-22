@@ -16,3 +16,6 @@
 
 　[Kruscal](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Kruscal.cpp)
 
+7.[Multi-Machine Scheduling 多机任务调度](https://github.com/Iris-Song/algorithm/blob/main/Greedy/Multi-Machine%20Scheduling.cpp)
+
+>NP problem. Greedy algorithm may be a good solution
