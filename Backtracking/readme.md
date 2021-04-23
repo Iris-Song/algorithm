@@ -9,6 +9,10 @@ Constraint(t):当前扩展结点处的约束函数
 Bound(t):当前扩展结点处的限界函数
 ```
 ```
+void Backtrack(int n){
+   if(t>n)
+     Output(x);
+}
 ```
 ## problem
 1.
