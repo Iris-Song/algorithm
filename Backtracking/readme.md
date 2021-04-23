@@ -12,6 +12,12 @@ Bound(t):当前扩展结点处的限界函数
 void Backtrack(int n){
    if(t>n)
      Output(x);
+   else{
+     for(int i=f(n,t);i<g(n,t);i++){
+       x[t]=h(i);
+       if(Constraint(t)&&Bound(t))
+         Backtrack(t+1);
+    }
 }
 ```
 ## problem
