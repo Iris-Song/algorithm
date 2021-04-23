@@ -21,5 +21,26 @@ void Backtrack(int n){
     }
 }
 ```
+```
+/*iterative backtracking*/
+void Backtrack(){
+   int t=1;
+   while(t>0){
+      if(f(n,t)<=g(n,t)){
+        for(int i=f(n,t);i<=g(n,t);i++){
+           x[t]=h(i);
+           if(Constraint(t)&&Bound(t)){
+              if(Solution(t))
+                 Output(x);
+              else
+                 t++;
+           }       
+         }
+       }
+       else
+         t--;
+   }
+}
+```
 ## problem
 1.
