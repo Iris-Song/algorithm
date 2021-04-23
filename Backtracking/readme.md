@@ -46,7 +46,7 @@ void Backtrack(){
 ```
 ```
 /*backtrack subtree*/
-void Backtrack(){
+void Backtrack(int t){
   if(t>n)
      Output(x);
    else{
@@ -54,6 +54,21 @@ void Backtrack(){
        x[t]=i;
        if(Constraint(t)&&Bound(t))
          Backtrack(t+1);
+      }
+   }
+}
+```
+```
+/*backtrack permutation tree*/
+void Backtrack(int t){
+  if(t>n)
+     Output(x);
+   else{
+     for(int i=t;i<=n;i++){
+       swap(x[t],x[i]);
+       if(Constraint(t)&&Bound(t))
+         Backtrack(t+1);
+       swap(x[t],x[i]);
       }
    }
 }
