@@ -74,4 +74,8 @@ void Backtrack(int t){
 }
 ```
 ## problem
-1.
+1.Maxloading 最优装载
+
+　[recursion](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Maxloading-recur.cpp)　
+ 
+　[iteration](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Maxloading-iteration.cpp)
