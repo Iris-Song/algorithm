@@ -19,7 +19,8 @@ void Backtrack(int n){
        x[t]=h(i);
        if(Constraint(t)&&Bound(t))
          Backtrack(t+1);
-    }
+     }
+  }
 }
 ```
 ```
@@ -44,23 +45,16 @@ void Backtrack(){
 }
 ```
 ```
-/*iterative backtracking*/
+/*backtrack subtree*/
 void Backtrack(){
-   int t=1;
-   while(t>0){
-      if(f(n,t)<=g(n,t)){
-        for(int i=f(n,t);i<=g(n,t);i++){
-           x[t]=h(i);
-           if(Constraint(t)&&Bound(t)){
-              if(Solution(t))
-                 Output(x);
-              else
-                 t++;
-           }       
-         }
-       }
-       else
-         t--;
+  if(t>n)
+     Output(x);
+   else{
+     for(int i=0;i<=n;i++){
+       x[t]=i;
+       if(Constraint(t)&&Bound(t))
+         Backtrack(t+1);
+      }
    }
 }
 ```
