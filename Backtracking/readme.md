@@ -81,3 +81,5 @@ void Backtrack(int t){
 　[iteration](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Maxloading-iteration.cpp)
 
 2.[Triangle signal](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Triangle%20signal.cpp)
+
+3.[JobFlow 批处理作业调度](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/JobFlow.cpp)
