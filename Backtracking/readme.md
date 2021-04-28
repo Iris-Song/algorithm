@@ -83,3 +83,5 @@ void Backtrack(int t){
 2.[Triangle signal](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Triangle%20signal.cpp)
 
 3.[JobFlow 批处理作业调度](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/JobFlow.cpp)
+
+4.[nQueen](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/nQueen.cpp)
