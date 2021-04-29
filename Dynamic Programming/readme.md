@@ -29,3 +29,5 @@
 
 
 12.[image compression](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/imageCompression.cpp)
+
+13.[OptimalBinarySearchTree](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/OptimalBinarySearchTree.cpp)
