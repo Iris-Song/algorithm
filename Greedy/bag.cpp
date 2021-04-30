@@ -16,6 +16,6 @@ void Knapsack(int n,Type M,Type v[],Type w[],Type x[])
 			break;
 	}
 	if (i <= n) {
-		x[i] = M / w[i];
+		x[i] = double(M) / double(w[i]);
 	}
 }
