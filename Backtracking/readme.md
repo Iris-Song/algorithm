@@ -85,3 +85,5 @@ void Backtrack(int t){
 3.[JobFlow 批处理作业调度](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/JobFlow.cpp)
 
 4.[nQueen](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/nQueen.cpp)
+
+5.[0-1 bag problem](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/bag0-1.cpp)
