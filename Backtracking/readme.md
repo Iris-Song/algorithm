@@ -88,4 +88,4 @@ void Backtrack(int t){
 
 5.[0-1 bag problem](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/bag0-1.cpp)
 
-6.[MaxClique 最大团问题](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Clique.cpp)
+6.[MaxClique 最大团问题](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/MaxClique.cpp)
