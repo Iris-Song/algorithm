@@ -96,3 +96,5 @@ void Backtrack(int t){
 8.[TravelingSeller 旅行售货员问题](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/Traveling.cpp)
 
 9.[CirclePerm 圆排列问题](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/CirclePerm.cpp)
+
+10.[MaxStamp 最大邮资问题](https://github.com/Iris-Song/algorithm/blob/main/Backtracking/MaxStamp.cpp)
