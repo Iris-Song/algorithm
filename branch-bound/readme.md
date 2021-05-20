@@ -6,3 +6,5 @@
 >
 ## problem
 1. [bag0-1](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/bag0-1.cpp)
+
+2. [sssp](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/sssp.cpp)
