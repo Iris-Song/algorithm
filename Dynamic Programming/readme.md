@@ -31,3 +31,5 @@
 12.[image compression](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/imageCompression.cpp)
 
 13.[OptimalBinarySearchTree](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/OptimalBinarySearchTree.cpp)
+
+14.[longest palindrome series](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-leetcode-solution/)
