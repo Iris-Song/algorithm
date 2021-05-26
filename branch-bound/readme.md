@@ -10,3 +10,5 @@
 2. [sssp](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/sssp.cpp)
 
 3. [MaxLoading](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/Maxloading.cpp)
+
+4. [Traveling](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/Traveling.cpp)
