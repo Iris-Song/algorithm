@@ -1,4 +1,3 @@
-/* 1954263 ËÎ×ÓÃú ¼Æ¿Æ */
 #include <iostream>
 
 using namespace std;
@@ -46,7 +45,7 @@ MaxHeap<Type>& MaxHeap<Type>::Insert(const Type& x)
 	int i = ++CurrentSize;
 	while (i != 1 && x > heap[i / 2])//array digit num from 1 to start
 	{
-		// i is not root£¬its value bigger than its father£¬need modify
+		// i is not rootï¼Œits value bigger than its fatherï¼Œneed modify
 		heap[i] = heap[i / 2]; // father node down
 		i /= 2;              // up to find final position
 	}
@@ -134,7 +133,7 @@ void Clique::AddLiveNode(MaxHeap<CliqueNode>& H, int cn, int un, int level, bbno
 	H.Insert(N);
 }
 
-//½â×î´óÍÅÎÊÌâµÄÓÅÏÈ¶ÓÁĞÊ½·ÖÖ§ÏŞ½ç·¨
+//è§£æœ€å¤§å›¢é—®é¢˜çš„ä¼˜å…ˆé˜Ÿåˆ—å¼åˆ†æ”¯é™ç•Œæ³•
 int Clique::BBMaxClique(int bestx[])
 {
 	MaxHeap<CliqueNode> H(1000);
@@ -148,7 +147,7 @@ int Clique::BBMaxClique(int bestx[])
 	//search tree
 	while (i != n + 1)//non-leaf node
 	{
-		//¼ì²é¶¥µãiÓëµ±Ç°ÍÅÖĞÆäËû¶¥µãÖ®¼äÊÇ·ñÓĞ±ßÏàÁ¬
+		//æ£€æŸ¥é¡¶ç‚¹iä¸å½“å‰å›¢ä¸­å…¶ä»–é¡¶ç‚¹ä¹‹é—´æ˜¯å¦æœ‰è¾¹ç›¸è¿
 		bool OK = true;
 		bbnode* B = E;
 		for (int j = i - 1; j > 0; B = B->parent, j--)
@@ -160,27 +159,27 @@ int Clique::BBMaxClique(int bestx[])
 			}
 		}
 
-		if (OK)//×ó¶ù×Ó½ÚµãÎª¿ÉĞĞ½áµã
+		if (OK)//å·¦å„¿å­èŠ‚ç‚¹ä¸ºå¯è¡Œç»“ç‚¹
 		{
 			if (cn + 1 > bestn)
 				bestn = cn + 1;
 			AddLiveNode(H, cn + 1, cn + n - i + 1, i + 1, E, true);
 		}
 
-		if (cn + n - i >= bestn)//ÓÒ×ÓÊ÷¿ÉÄÜº¬ÓĞ×îÓÅ½â
+		if (cn + n - i >= bestn)//å³å­æ ‘å¯èƒ½å«æœ‰æœ€ä¼˜è§£
 		{
 			AddLiveNode(H, cn, cn + n - i, i + 1, E, false);
 		}
 
-		//È¡ÏÂÒ»À©Õ¹½Úµã
+		//å–ä¸‹ä¸€æ‰©å±•èŠ‚ç‚¹
 		CliqueNode N;
-		H.DeleteMax(N); //¶Ñ·Ç¿Õ
+		H.DeleteMax(N); //å †éç©º
 		E = N.ptr;
 		cn = N.cn;
 		i = N.level;
 	}
 
-	//¹¹Ôìµ±Ç°×îÓÅ½â
+	//æ„é€ å½“å‰æœ€ä¼˜è§£
 	for (int j = n; j > 0; j--)
 	{
 		bestx[j] = E->LChild;
