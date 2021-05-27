@@ -17,3 +17,6 @@
 
 6. [undirected graph's largest division](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/MaxCut.cpp)
 
+7. [FlowShop](https://github.com/Iris-Song/algorithm/blob/main/branch-bound/FlowShop.cpp)
+
+
