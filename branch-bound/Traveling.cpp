@@ -1,3 +1,5 @@
+#include "Heap.cpp"
+
 template <class Type>
 class Traveling {
 	friend int main();
