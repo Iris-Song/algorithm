@@ -1,5 +1,6 @@
+#include "Heap.cpp"
+
 template<class Type>class HeapNode;
-template<class Type>class MaxHeap;
 
 template<class Type>
 class bbnode {
