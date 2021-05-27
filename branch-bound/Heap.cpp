@@ -1,4 +1,3 @@
-
 template<class Type>
 class MaxHeap
 {
@@ -76,6 +75,91 @@ MaxHeap<Type>& MaxHeap<Type>::DeleteMax(Type& x)
 			break;// find right position
 		
 		heap[i] = heap[ci]; // bigger child up
+		// next layer
+		i = ci;            
+		ci *= 2;
+	}
+
+	heap[i] = y;
+	return *this;
+}
+
+class MinHeap
+{
+public:
+	MinHeap(int MinHeapSize = 10);
+	~MinHeap() { delete[] heap; }
+
+	int Size() const { return CurrentSize; }
+	Type Min();//find min node
+	MinHeap<Type>& Insert(const Type& x); 
+	MinHeap<Type>& DeleteMin(Type& x); 
+
+private:
+	int CurrentSize, MinSize;
+	Type* heap;  // element array
+};
+
+template<class Type>
+MinHeap<Type>::MinHeap(int MinHeapSize)
+{
+	MinSize = MinHeapSize;
+	heap = new Type[MinSize + 1];
+	CurrentSize = 0;
+}
+template<class Type>
+Type MinHeap<Type>::Min()
+{          
+	return heap[1];
+}
+template<class Type>
+MinHeap<Type>& MinHeap<Type>::Insert(const Type& x)
+{
+	if (CurrentSize == MinSize)
+	{
+		cout << "no space to insert!" << endl;
+		return *this;
+	}
+
+	// find new element x's position
+	// i is new element's position,find it's final positon from bottom to top
+	int i = ++CurrentSize;
+	while (i != 1 && x < heap[i / 2])//array digit num from 1 to start
+	{
+		// i is not root，its value bigger than its father，need modify
+		heap[i] = heap[i / 2]; // father node down
+		i /= 2;              // up to find final position
+	}
+	heap[i] = x;
+	return *this;
+}
+template<class Type>
+MaxHeap<Type>& MaxHeap<Type>::DeleteMax(Type& x)
+{
+	if (CurrentSize == 0)
+	{
+		cout << "empty heap!" << endl;
+		return *this;
+	}
+
+	x = heap[1]; //max elem
+	// get last node,modify heap from root
+	Type y = heap[CurrentSize--]; 
+
+	// find place for y starting at root
+	int i = 1,  // current node of heap
+		ci = 2; // child of i
+
+	while (ci <= CurrentSize)
+	{
+		// ci is the smaller one child of i
+		if (ci < CurrentSize && heap[ci] > heap[ci + 1])
+			ci++;
+		
+		if (y >= heap[ci])
+			break;// find right position
+		
+		heap[i] = heap[ci]; // smaller child up
 		// next layer
 		i = ci;            
 		ci *= 2;
