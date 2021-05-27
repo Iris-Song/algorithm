@@ -1,4 +1,4 @@
-/* 1954263 ËÎ×ÓÃú ¼Æ¿Æ */
+
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -9,10 +9,10 @@ int n, m;
 class Node
 {
 public:
-    int level;  //µ±Ç°²ã
-    int cut;  //¸î±ßÊıÁ¿
-    int e;    //Ê£Óà±ßµÄÊıÁ¿
-    int* x;   //½âÏòÁ¿
+    int level;  //å½“å‰å±‚
+    int cut;  //å‰²è¾¹æ•°é‡
+    int e;    //å‰©ä½™è¾¹çš„æ•°é‡
+    int* x;   //è§£å‘é‡
 
     Node(int d, int c, int ee)
     {
@@ -30,7 +30,7 @@ public:
 
 priority_queue<Node> q;
 
-//Ìí¼Ó½áµã
+//æ·»åŠ ç»“ç‚¹
 void addNode(int**a,Node enode, bool ch)
 {
     Node now(enode.level + 1, enode.cut, enode.e);
@@ -40,10 +40,10 @@ void addNode(int**a,Node enode, bool ch)
         now.x[now.level] = 1;
         for (int j = 1; j <= n; j++)
             if (a[now.level][j])
-                if (now.x[j] == 0) //Èç¹ûµ±Ç°¶¥µãÔÚ¸î¼¯ÖĞ£¬µ«±ßµÄÁíÒ»¸ö¶¥µã²»ÔÚ¸î¼¯
+                if (now.x[j] == 0) //å¦‚æœå½“å‰é¡¶ç‚¹åœ¨å‰²é›†ä¸­ï¼Œä½†è¾¹çš„å¦ä¸€ä¸ªé¡¶ç‚¹ä¸åœ¨å‰²é›†
                 {
-                    now.cut++;  //¸î±ßµÄÊıÁ¿Ôö¼Ó
-                    now.e--;    //Ê£Óà±ßµÄÊıÁ¿¼õÉÙ
+                    now.cut++;  //å‰²è¾¹çš„æ•°é‡å¢åŠ 
+                    now.e--;    //å‰©ä½™è¾¹çš„æ•°é‡å‡å°‘
                 }
                 else
                     now.cut--;
@@ -81,7 +81,7 @@ int search(int **a,int *bestx)
         if (q.empty())
             break;
         else{
-            enode = q.top();//È¡ÏÂÒ»À©Õ¹½áµã
+            enode = q.top();//å–ä¸‹ä¸€æ‰©å±•ç»“ç‚¹
             q.pop();
         }
     }
