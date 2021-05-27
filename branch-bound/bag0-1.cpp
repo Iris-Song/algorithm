@@ -1,3 +1,5 @@
+#include "Heap.cpp"
+
 //用堆维护的优先队列
 class Object {
 	friend int Knapsack(int*, int*, int, int, int*);
