@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Heap.h"
+#include "Heap.cpp"
 using namespace std;
 
 class bbnode
