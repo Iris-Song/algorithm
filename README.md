@@ -1,4 +1,4 @@
-# algorithm
+# Algorithm
 For learning -> interview
 
 from leetcode\textbook\social media
