@@ -1,6 +1,9 @@
 # DYNAMIC PROGRAMMING
 ## problem
 1.[LIS](https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/)
+  1.1 DP
+  1.2 bisect
+  1.3 fenwick
 
 2.[矩阵连乘](https://github.com/Iris-Song/algorithm/blob/main/Dynamic%20Programming/RecurMatrixChain.cpp)
 
